@@ -1,0 +1,65 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    margin: 20px;
+    background-color: #ffff;
+
+    h2 {
+        padding: 30px;
+        text-align: center;
+    }
+}
+.container-btn {
+    text-align: left;
+}
+
+.btn-tambah {
+    padding: 6px;
+    background-color: rgb(255, 210, 210);
+    border-radius: 4px;
+    text-align: right;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #969696;
+}
+
+th, td {
+    padding: 10px;
+    background-color: rgb(255, 210, 210);
+}
+
+th {
+    background-color: #f66363;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+form input, 
+form textarea, 
+form button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 300px;
+}
+
+.container {
+    justify-content: center;
+    display:flex;
+    width: 100%;
+}
+
+.cp {
+    display: flex;
+    justify-content: center;
+}
